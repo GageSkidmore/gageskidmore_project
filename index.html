@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gage Skidmore - Interests and Fun Facts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            scroll-behavior: smooth;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #0077cc;
+        }
+        h2 {
+            margin-top: 30px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section img {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 10px auto;
+            border-radius: 8px;
+        }
+        .fun-fact {
+            font-size: 1.1em;
+            color: #555;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .links {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #0077cc;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .links a:hover {
+            background-color: #005fa3;
+        }
+        .riddles-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gage Skidmore's Interests</h1>
+        <div class="section">
+            <h2>Football</h2>
+            <img src="https://images.unsplash.com/photo-1549342903-99e4aca91a0b" alt="Football">
+            <p class="fun-fact">I played football in high school as a wide receiver. Fun Fact: A football field is 100 yards long, excluding the end zones!</p>
+        </div>
+        <div class="section">
+            <h2>Basketball</h2>
+            <img src="https://images.unsplash.com/photo-1504593811423-6dd665756598" alt="Basketball">
+            <p class="fun-fact">I was a shooting guard on the basketball team. Fun Fact: Basketball was invented in 1891 by Dr. James Naismith!</p>
+        </div>
+        <div class="section">
+            <h2>Baseball</h2>
+            <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b" alt="Baseball">
+            <p class="fun-fact">I played as a shortstop in baseball. Fun Fact: Baseball is known as America's pastime and dates back to the 1800s!</p>
+        </div>
+
+        <!-- Links Section -->
+        <div class="links">
+            <a href="#resume">Resume</a>
+            <a href="#riddles">Game</a>
+        </div>
+
+        <!-- Resume Section -->
+        <div id="resume" class="section">
+            <h2>Resume</h2>
+            <iframe src="layout.html" width="100%" height="500px" style="border: none;"></iframe>
+        </div>
+
+        <!-- Riddles Game Section -->
+        <div id="riddles" class="riddles-container">
+            <h2>Riddles Game</h2>
+            <p>Can you solve these riddles?</p>
+            <p><b>Riddle 1:</b> What has to be broken before you can use it?</p>
+            <button onclick="alert('Answer: An egg!')">Show Answer</button>
+            <p><b>Riddle 2:</b> I speak without a mouth and hear without ears. I have nobody, but I come alive with wind. What am I?</p>
+            <button onclick="alert('Answer: An echo!')">Show Answer</button>
+            <p><b>Riddle 3:</b> What gets wetter as it dries?</p>
+            <button onclick="alert('Answer: A towel!')">Show Answer</button>
+        </div>
+    </div>
+</body>
+</html>
+
